@@ -25,7 +25,7 @@ public class Main {
                     warehouse.consume();
                     Thread.sleep(800);
                 } catch (InterruptedException e) {
-                    System.out.println("생산자 스레드 종료");
+                    System.out.println("소비자 스레드 종료");
                     break;
                 }
             }
